@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.nav-left {
+    height: 50%;
+    width: 50%;
+}
+
+.cart-image {
+    height: 40%;
+    width: 20%;
+}
+
+.nav-right {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: black;
+}
