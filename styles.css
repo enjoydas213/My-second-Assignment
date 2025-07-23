@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
+    background: #fff;
 }
 
 .nav-left {
@@ -23,4 +24,38 @@
 .nav-right a {
     text-decoration: none;
     color: black;
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: #fefefe;
+}
+
+.banner-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.banner-text h1 {
+    font-size: 36px;
+}
+
+.banner-text .highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+.banner-img {
+    flex: 1;
+    padding: 20px;
+}
+
+p {
+    font-size: small;
+}
+
+banner-img img {
+    max-width: 100%;
 }
