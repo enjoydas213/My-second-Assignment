@@ -199,7 +199,7 @@ banner-img img {
     color: #555;
 }
 
-@media and (max-width:768px) and (min-width:577px) {
+@media screen and (max-width:768px) and (min-width:577px) {
     .nav-right {
         display: none
     }
