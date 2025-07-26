@@ -192,3 +192,10 @@ banner-img img {
     margin: 10px 10px;
     padding: 5px;
 }
+
+@media and (max-width:768px) and (min-width:577px) {
+    .nav-right {
+        display: none
+    }
+
+}
