@@ -198,4 +198,23 @@ banner-img img {
         display: none
     }
 
+    .banner,
+    .plants-section {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .join-content input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .join-content button {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: left;
+    }
 }
